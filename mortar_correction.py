@@ -58,9 +58,9 @@ class Mortar:
 
         sentido_launch = input("The shot landed ABOVE or BELOW? \n")
         if sentido_launch in ["ABOVE", "Above", "above"]:
-            print("CORRECTION ====================================> 'SHORTEN' {:.1f} rounds.".format (rounds))    # Final Result
+            print("\n CORRECTION ====================================> 'SHORTEN' {:.1f} rounds.".format (rounds))    # Final Result
         elif sentido_launch in ["BELOW", "Below", "below"]:
-            print("CORRECTION ====================================> 'LENGTHEN' {:.1f} rounds.".format (rounds))   # Final Result
+            print("\n CORRECTION ====================================> 'LENGTHEN' {:.1f} rounds.".format (rounds))   # Final Result
         else: Mortar().exception_range()
         Mortar().verify()
         return rounds
@@ -85,14 +85,14 @@ class Mortar:
         self.verificacao = input("Do you want to keep on the aplication? \n")
         while self.verificacao in ["YES", "Y", "Yes", 'yes', 'y']:
             return Mortar().correct_launch()
-        array = ['\nE','N','D','I','N','G \n']
+        array = ['\n E','N','D','I','N','G \n']
         for i in array:
             time.sleep(0.2)
             print(i)
         print('You are out the aplication! \n')
 
     def exception_dir(self):                                                                       # This Method correct user typo at calculate_direction() Method
-        print("VYou did not enter a valid data, try again.")
+        print("You did not enter a valid data, try again.")
         Mortar().calculate_direction(0,0)
 
     def exception_range(self):                                                                     # This Method correct user typo at calculate_range() Method
