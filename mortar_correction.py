@@ -1,4 +1,4 @@
-##############################                             Mortar Fire Fix calculatetion                                  ##############################
+##############################                              Mortar Fire Fix calculation                                   ##############################
 ##                                                                                                                                                    ##
 ##                                          This project uses the following formula: "M = 1000 * F / D"                                               ##
 ##                           Functionality for a fire simplified command, with direct changes on mortar bipod mechanisms                              ##
