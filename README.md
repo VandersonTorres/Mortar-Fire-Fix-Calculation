@@ -1,6 +1,6 @@
 #####   Mortar-Fire-Fix-Calculation   #####
 
-# This aplication is tipically about military issues, especially Fireworks Support
+# This aplication is typically about military issues, especially Fireworks Support
 # It automatically calculates Mortar Fire Corrections from basic informations like 'distance of target', 'fire variation'...
 # The project uses a 'mathematical formula': M = 1000 * F / D
 # M -> Millesimal /// F -> Front Variation /// D -> Distance
