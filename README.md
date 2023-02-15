@@ -1,7 +1,6 @@
 #####   Mortar-Fire-Fix-Calculation   #####
 
-# This application developed with Python, works to automatically fix mortar grenade launches that suffered any variation, both in direction and range. 
-With an expertise acquired in my last occupation in brazilian army in a command position, i felt this need on the battlefield, and I was able to initialize this prototype.
+# This application developed with Python, works to automatically fix mortar grenade launches that suffered any variation, both in direction and range. With an expertise acquired in my last occupation in brazilian army in a command position, i felt this need on the battlefield, and I was able to initialize this prototype.
 
 # This is a Object-Oriented code that uses a general class ‘mortar’ and its methods to confirm if there were variations, and fix it fast and safe according to user inputs.
 
